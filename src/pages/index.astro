@@ -1,0 +1,27 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header title={SITE_TITLE} />
+		<main>
+			<h1>🧑‍🚀 Hello, Astronaut!</h1>
+			<p>
+				Selamat datang di blog pribadi saya, sebuah wadah yang didedikasikan untuk mengeksplorasi dan berbagi perjalanan menarik dalam dunia pendidikan. Saya sangat senang bisa membuka pintu ke dalam kisah-kisah tugas dan proyek sekolah yang telah saya hadapi di setiap babak perjalanan pendidikan saya. Melalui tulisan-tulisan ini, saya berharap bisa menginspirasi teman-teman belajar dan pembaca setia untuk menjelajahi dan mengatasi setiap tantangan yang muncul di ruang belajar.
+            <p>
+        Blog ini akan menjadi jendela ke dalam kreativitas dan dedikasi saya dalam menyelesaikan berbagai tugas sekolah dan proyek-proyek ilmiah. Setiap tulisan akan mengungkapkan proses pemikiran dan upaya yang saya lakukan untuk mencapai tujuan, dari perencanaan hingga pelaksanaan. Ini adalah wadah di mana saya merangkai pengalaman dan pembelajaran menjadi cerita yang dapat menginspirasi, mengajar, dan mendorong semangat berprestasi.
+            <p>
+        Saya berharap blog ini juga menjadi tempat interaksi dan kolaborasi. Mari berbagi pengalaman, gagasan, dan pandangan kita dalam perjalanan belajar. Saya percaya bahwa melalui saling berbagi, kita dapat tumbuh bersama dan mendukung satu sama lain untuk meraih prestasi yang lebih tinggi. Saya berterima kasih atas dukungan Anda dalam perjalanan ini dan berharap Anda menikmati setiap perjalanan menarik dalam blog ini. Terima kasih sudah bergabung, dan mari kita mulai menjelajahi dunia pengetahuan bersama!
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
